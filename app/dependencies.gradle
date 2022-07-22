@@ -1,0 +1,15 @@
+ext {
+    appcompatVersion = "1.4.2"
+    materialVersion = "1.6.1"
+    constraintLayoutVersion = "2.1.4"
+    jUnitTestImplementationVersion = "4.13.2"
+    jUnitAndroidTestImplementationVersion = "1.1.3"
+    espressoAndroidTestImplementationVersion = "3.4.0"
+
+    appCompatDependecies = "androidx.appcompat:appcompat:${appcompatVersion}"
+    materialDependencies = "com.google.android.material:material:${materialVersion}"
+    constraintLayoutDependencies = "androidx.constraintlayout:constraintlayout:${constraintLayoutVersion}"
+    espressoCoreDependencies = "androidx.test.espresso:espresso-core:${espressoAndroidTestImplementationVersion}"
+    jUnitDependencies = "junit:junit:${jUnitTestImplementationVersion}"
+    testExtJUnitDependencies = "androidx.test.ext:junit:${jUnitAndroidTestImplementationVersion}"
+}
